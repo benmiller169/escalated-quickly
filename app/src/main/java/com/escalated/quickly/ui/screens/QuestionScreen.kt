@@ -6,6 +6,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -26,6 +27,7 @@ fun QuestionScreen(
     onSkipQuestion: () -> Unit,
     onAddQuestion: () -> Unit,
     onStartRound: () -> Unit,
+    onBackHome: () -> Unit,
     isLoading: Boolean,
     modifier: Modifier = Modifier
 ) {
@@ -38,7 +40,24 @@ fun QuestionScreen(
                 )
             )
     ) {
-        // Add question button in corner
+        // Home button in top-left corner
+        FloatingActionButton(
+            onClick = onBackHome,
+            modifier = Modifier
+                .align(Alignment.TopStart)
+                .statusBarsPadding()
+                .padding(16.dp),
+            containerColor = OrangeBurnt,
+            contentColor = White,
+            shape = CircleShape
+        ) {
+            Icon(
+                Icons.Default.Home,
+                contentDescription = "Go home"
+            )
+        }
+        
+        // Add question button in top-right corner
         FloatingActionButton(
             onClick = onAddQuestion,
             modifier = Modifier

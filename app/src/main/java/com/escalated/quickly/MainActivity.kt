@@ -60,6 +60,7 @@ fun EscalatedQuicklyApp(
                 onSkipQuestion = { viewModel.skipQuestion() },
                 onAddQuestion = { viewModel.showAddQuestionDialog() },
                 onStartRound = { viewModel.startNumberSelection() },
+                onBackHome = { viewModel.backToHome() },
                 isLoading = gameState.isLoading,
                 modifier = Modifier.fillMaxSize()
             )
@@ -72,6 +73,7 @@ fun EscalatedQuicklyApp(
                 revealedNumber = gameState.revealedNumber,
                 onRevealNumber = { viewModel.revealNumber() },
                 onConfirmNumber = { viewModel.confirmNumber() },
+                onBackHome = { viewModel.backToHome() },
                 modifier = Modifier.fillMaxSize()
             )
         }
@@ -81,6 +83,7 @@ fun EscalatedQuicklyApp(
                 question = gameState.currentQuestion,
                 playerCount = gameState.playerCount,
                 onProceedToOrdering = { viewModel.proceedToOrdering() },
+                onBackHome = { viewModel.backToHome() },
                 modifier = Modifier.fillMaxSize()
             )
         }

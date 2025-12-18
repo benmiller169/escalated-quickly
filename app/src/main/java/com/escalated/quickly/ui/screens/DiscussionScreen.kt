@@ -3,7 +3,10 @@ package com.escalated.quickly.ui.screens
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -24,6 +27,7 @@ fun DiscussionScreen(
     question: Question?,
     playerCount: Int,
     onProceedToOrdering: () -> Unit,
+    onBackHome: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val infiniteTransition = rememberInfiniteTransition(label = "pulse")
@@ -46,6 +50,23 @@ fun DiscussionScreen(
                 )
             )
     ) {
+        // Home button in top-left corner
+        FloatingActionButton(
+            onClick = onBackHome,
+            modifier = Modifier
+                .align(Alignment.TopStart)
+                .statusBarsPadding()
+                .padding(16.dp),
+            containerColor = OrangeBurnt,
+            contentColor = White,
+            shape = CircleShape
+        ) {
+            Icon(
+                Icons.Default.Home,
+                contentDescription = "Go home"
+            )
+        }
+        
         Column(
             modifier = Modifier
                 .fillMaxSize()
