@@ -98,7 +98,7 @@ fun HomeScreen(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
-                    text = "🔥",
+                    text = "❓",
                     fontSize = 64.sp,
                     modifier = Modifier.scale(titleScale)
                 )
