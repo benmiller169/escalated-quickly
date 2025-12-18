@@ -43,6 +43,7 @@ fun QuestionScreen(
             onClick = onAddQuestion,
             modifier = Modifier
                 .align(Alignment.TopEnd)
+                .statusBarsPadding()
                 .padding(16.dp),
             containerColor = TealAccent,
             contentColor = White,
