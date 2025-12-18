@@ -1,11 +1,5 @@
 [
     {
-        "id": 1,
-        "question": "You’re at your high school reunion and see a bully. You decide to tell them what you think of them.",
-        "1": "Least mature",
-        "10": "Most mature"
-    },
-    {
         "id": 2,
         "question": "Your food truck was shut down by the health inspector. Why?",
         "1": "Completely unjustified",
@@ -22,12 +16,6 @@
         "question": "You're going to a 3-year-old's birthday party. What should you bring as a gift?",
         "1": "Least likely to annoy the parents",
         "10": "Most likely to annoy everyone"
-    },
-    {
-        "id": 8,
-        "question": "You're planning a self-care day. What are you doing?",
-        "1": "Least soothing",
-        "10": "Most soothing"
     },
     {
         "id": 9,
