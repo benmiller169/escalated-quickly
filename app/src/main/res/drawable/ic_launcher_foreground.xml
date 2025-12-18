@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:translateX="18.9"
+        android:translateY="18.9">
+        <!-- Question mark icon -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,20c-11.046,0 -20,8.954 -20,20c0,3.314 2.686,6 6,6s6,-2.686 6,-6c0,-4.418 3.582,-8 8,-8s8,3.582 8,8c0,3.125 -1.607,5.051 -4.447,7.276C54.578,49.646 48,54.147 48,64c0,3.314 2.686,6 6,6s6,-2.686 6,-6c0,-4.073 2.578,-6.051 5.447,-8.276C68.422,53.354 74,48.853 74,40C74,28.954 65.046,20 54,20z"/>
+        <path
+            android:fillColor="#FFB347"
+            android:pathData="M54,76c-4.418,0 -8,3.582 -8,8s3.582,8 8,8s8,-3.582 8,-8S58.418,76 54,76z"/>
+    </group>
+</vector>
