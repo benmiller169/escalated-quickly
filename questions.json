@@ -1,114 +1,96 @@
 [
     {
-        "id": 2,
+        "id": 1,
         "question": "Your food truck was shut down by the health inspector. Why?",
         "1": "Completely unjustified",
         "10": "Absolutely justified"
     },
     {
-        "id": 3,
+        "id": 2,
         "question": "Someone offered you a million dollars, but there is a catch. What is it?",
         "1": "Least likely I'd accept",
         "10": "Most likely I'd accept"
     },
     {
-        "id": 5,
+        "id": 3,
         "question": "You're going to a 3-year-old's birthday party. What should you bring as a gift?",
         "1": "Least likely to annoy the parents",
         "10": "Most likely to annoy everyone"
     },
     {
-        "id": 9,
+        "id": 4,
         "question": "You need to use public Wi-Fi. What is the name of the network you see?",
         "1": "Least likely I'd connect to it",
         "10": "Most likely I'd connect to it"
     },
     {
-        "id": 10,
+        "id": 5,
         "question": "Your friend introduced you to their new baby, and it is honestly UGLY. What do you say?",
         "1": "Least honest",
         "10": "Most honest"
     },
     {
-        "id": 11,
+        "id": 6,
         "question": "You see something on a Tinder profile that makes you react immediately.",
-        "1": "Punching your phone",
+        "1": "Run away",
         "10": "Proposing on the spot"
     },
     {
-        "id": 12,
+        "id": 7,
         "question": "Your parents meet your new partner for the first time. What is the first thing they say?",
         "1": "Worst thing",
         "10": "Best thing"
     },
     {
-        "id": 13,
+        "id": 8,
         "question": "Your boss accidentally sees your browser history. What have they seen?",
         "1": "Fired and reported to the authorities",
         "10": "Immediate promotion and a high-five"
     },
     {
-        "id": 15,
+        "id": 9,
         "question": "Your partner makes a specific request in the bedroom.",
         "1": "Immediate breakup and a restraining order",
         "10": "You’ve been waiting your whole life for this"
     },
     {
-        "id": 16,
+        "id": 10,
         "question": "You are currently in the Emergency Room at 4:00 AM. How did you get there?",
         "1": "Accidental and boring",
         "10": "A story so embarrassing you'll never tell it again"
     },
     {
-        "id": 17,
+        "id": 11,
         "question": "You accidentally sent a 'spicy' text to the family group chat instead of your partner.",
         "1": "Recoverable with a quick 'oops'",
         "10": "Changing your name and moving to a new country"
     },
     {
-        "id": 18,
-        "question": "Your neighbors are making an incredible amount of noise at 3:00 AM. What are they doing?",
-        "1": "Least annoying",
-        "10": "Most annoying"
-    },
-    {
-        "id": 21,
-        "question": "You find a handwritten note on your car windshield. What does it say?",
-        "1": "You parked slightly crooked",
-        "10": "I love you and I'm currently in your trunk"
-    },
-    {
-        "id": 23,
-        "question": "A ghost starts haunting your apartment. What is the first thing it says to you?",
-        "1": "least scary'",
-        "10": "most scary"
-    },
-    {
-        "id": 24,
+        "id": 12,
         "question": "A package you 'drunk-ordered' just arrived in the mail. What is it?",
         "1": "the worst thing",
         "10": "the best thing"
     },
     {
-        "id": 26,
+        "id": 13,
         "question": "You have just been gifted a cookie. What flavour is it?",
         "1": "The worst thing imaginable",
         "10": "The best thing imaginable"
     },
     {
-        "id": 27,
+        "id": 14,
         "question": "You win a 'lifetime supply' of one specific thing. What is it?",
         "1": "The worst thing to have forever",
         "10": "The best thing to have forever"
     },
     {
-        "id": 28,
+        "id": 15,
         "question": "You find a strange object in the pocket of a coat you bought at a thrift store. What is it?",
         "1": "Least suspicious",
         "10": "Most suspicious"
     },
     {
-        "id": 36,
+        "id": 16,
         "question": "You’re at a quiet library and you accidentally play a video on your phone at full volume. What is the video?",
         "1": "Least embarrassing",
         "10": "Most likely to make you leave the country out of shame"
